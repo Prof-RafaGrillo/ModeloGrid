@@ -1,6 +1,7 @@
 .cabecalho{
   height: 300px;
   background-color: blue;
+  position: relative;
 }
 
 .cabecalho-texto{
@@ -14,7 +15,7 @@
   padding: 20px;
 }
 .colunas{
-  padding-top: 100px;
+  padding: 100px 0;
   display: grid;
   grid-template-columns: 33% 33% 33%;
   background-color: gray;
@@ -29,6 +30,7 @@
 }
 
 .colunas2{
+  position: relative;
   padding-top: 50px;
   display: grid;
   grid-template-columns: 15% 20% 20% 20% 15%;
@@ -36,6 +38,7 @@
 }
 
 .coluna2{
+  
   margin-left: 100px;
   padding: 20px;
   border: 3px solid red;
@@ -43,5 +46,17 @@
   background-color:cadetblue;
 
 }
+
+.cabecalho-texto2{
+  position: absolute;
+  top: -50px;
+  right: 50px;
+  width:  250px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 20px;
+}
+
 
 
